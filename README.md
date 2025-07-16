@@ -1,128 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>README - Task Manager App</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
-</head>
-<body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
+<h1 align="center">📝 Task Manager Web App</h1>
 
-  <div class="max-w-5xl mx-auto p-6">
-    <h1 class="text-4xl font-bold text-blue-600 mb-4">📝 Task Manager Web Application</h1>
-    <p class="text-lg mb-6">A modern and responsive task management app built with <strong>HTML</strong>, <strong>Tailwind CSS</strong>, <strong>JavaScript</strong>, and <strong>Node.js</strong>.</p>
+<p align="center">
+A simple and responsive task management app built using 
+<strong>HTML</strong>, <strong>Tailwind CSS</strong>, 
+<strong>JavaScript</strong>, and <strong>Node.js</strong>.
+</p>
 
-    <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-gray-700 mb-2">🚀 Features</h2>
-      <ul class="list-disc ml-6 space-y-1">
-        <li><strong>Add Tasks</strong> – Create new tasks with title and due date</li>
-        <li><strong>View Tasks</strong> – View and filter all tasks</li>
-        <li><strong>Mark Complete</strong> – Toggle task status</li>
-        <li><strong>Delete Tasks</strong> – Remove with confirmation</li>
-        <li><strong>Search & Filter</strong> – Search by title or status</li>
-        <li><strong>Responsive Design</strong> – Mobile-first layout</li>
-        <li><strong>Modern UI</strong> – Clean Tailwind-styled interface</li>
-        <li><strong>Real-time Updates</strong> – Instant UI updates</li>
-      </ul>
-    </section>
+<hr/>
 
-    <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-gray-700 mb-2">🛠️ Technology Stack</h2>
-      <div class="grid md:grid-cols-2 gap-4">
-        <div>
-          <h3 class="font-semibold text-lg text-blue-500">Frontend</h3>
-          <ul class="list-disc ml-6">
-            <li>HTML5</li>
-            <li>Tailwind CSS</li>
-            <li>JavaScript (ES6+)</li>
-            <li>Font Awesome</li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="font-semibold text-lg text-green-500">Backend</h3>
-          <ul class="list-disc ml-6">
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>JSON File Storage</li>
-            <li>CORS</li>
-            <li>UUID</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+<h2>🔧 Features</h2>
 
-    <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-gray-700 mb-2">📁 Project Structure</h2>
-      <pre class="bg-gray-100 p-4 rounded text-sm overflow-x-auto">
+<ul>
+  <li>✅ Add, view, complete, and delete tasks</li>
+  <li>🔍 Filter and search tasks</li>
+  <li>📱 Responsive design for mobile and desktop</li>
+  <li>⚡ Real-time UI updates</li>
+</ul>
+
+---
+
+<h2>🚀 Tech Stack</h2>
+
+<table>
+<tr>
+  <th>Frontend</th>
+  <th>Backend</th>
+</tr>
+<tr>
+  <td>HTML</td>
+  <td>Node.js</td>
+</tr>
+<tr>
+  <td>Tailwind CSS</td>
+  <td>Express.js</td>
+</tr>
+<tr>
+  <td>JavaScript</td>
+  <td>JSON File Storage</td>
+</tr>
+</table>
+
+---
+
+<h2>📁 Project Structure</h2>
+
+<pre>
 task-manager-app/
 ├── public/
-│   ├── index.html          # Main HTML file
-│   └── script.js           # Frontend JavaScript
-├── server.js               # Express server
-├── package.json            # Dependencies
-├── data.json               # Task storage
-└── README.md               # Documentation
-      </pre>
-    </section>
+│   ├── index.html
+│   └── script.js
+├── server.js
+├── data.json
+└── package.json
+</pre>
 
-    <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-gray-700 mb-2">⚙️ Installation</h2>
-      <ol class="list-decimal ml-6 space-y-1">
-        <li>Clone or download the project</li>
-        <li>Install dependencies:
-          <pre class="bg-gray-100 p-2 rounded text-sm">npm install</pre>
-        </li>
-        <li>Start the server:
-          <pre class="bg-gray-100 p-2 rounded text-sm">npm start</pre>
-        </li>
-        <li>Visit: <code class="text-blue-600">http://localhost:3000</code></li>
-      </ol>
-    </section>
+---
 
-    <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-gray-700 mb-2">🔗 API Endpoints</h2>
-      <ul class="list-disc ml-6 space-y-2 text-sm">
-        <li><strong>GET /api/tasks</strong> – Get all tasks</li>
-        <li><strong>POST /api/tasks</strong> – Create a task<br/>Body: <code>{ title, dueDate }</code></li>
-        <li><strong>PUT /api/tasks/:id</strong> – Update task status<br/>Body: <code>{ status: 'pending' | 'completed' }</code></li>
-        <li><strong>DELETE /api/tasks/:id</strong> – Delete a task</li>
-      </ul>
-    </section>
+<h2>▶️ Run Locally</h2>
 
-    <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-gray-700 mb-2">🔍 Features in Detail</h2>
-      <ul class="list-disc ml-6 space-y-1">
-        <li><strong>Status Indicators:</strong> Blue = Pending, Green = Completed, Red = Overdue, Yellow = Due Soon</li>
-        <li><strong>Validation:</strong> Title and future due date required</li>
-        <li><strong>User Experience:</strong> Transitions, hover effects, modals, and toast notifications</li>
-      </ul>
-    </section>
 
-    <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-gray-700 mb-2">🧪 Development</h2>
-      <p class="mb-2">To run in development mode with auto-reload:</p>
-      <pre class="bg-gray-100 p-2 rounded text-sm">npm run dev</pre>
-      <p class="mt-2">Customize Tailwind in <code>index.html</code> or extend features in <code>server.js</code>.</p>
-    </section>
-
-    <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-gray-700 mb-2">🌐 Browser Support</h2>
-      <p>Fully compatible with the latest versions of Chrome, Firefox, Safari, and Edge.</p>
-    </section>
-
-    <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-gray-700 mb-2">🤝 Contributing</h2>
-      <ol class="list-decimal ml-6 space-y-1">
-        <li>Fork the repo</li>
-        <li>Create a new branch</li>
-        <li>Commit and push changes</li>
-        <li>Open a Pull Request</li>
-      </ol>
-    </section>
-
-    <footer class="border-t pt-4 text-sm text-center text-gray-500">
-      © 2025 Task Manager App — MIT License. Feel free to use for personal or commercial projects.
-    </footer>
-  </div>
-</body>
-</html>
+```bash
+npm install
+npm start
+Visit: <code>http://localhost:3000</code>
