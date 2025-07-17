@@ -1,10 +1,98 @@
 [
   {
-    "id": "14f317fb-cd07-46f9-b810-7c1bbf71ffbe",
-    "title": "Arun yadav Bio",
-    "dueDate": "2025-11-11",
+    "id": "027b1e83-2bbf-4fa2-b73a-08ac6088ce3c",
+    "title": "04:00 - 08:00 Study",
+    "dueDate": "2025-07-17",
     "status": "pending",
-    "createdAt": "2025-07-16T17:45:47.010Z",
-    "updatedAt": "2025-07-16T17:52:02.416Z"
+    "createdAt": "2025-07-17T06:04:26",
+    "updatedAt": "2025-07-17T06:04:26"
+  },
+  {
+    "id": "633c2e8b-fc8e-457d-aeaf-f2b44a02245b",
+    "title": "09:30 - 10:30 Study",
+    "dueDate": "2025-07-17",
+    "status": "pending",
+    "createdAt": "2025-07-17T06:04:26",
+    "updatedAt": "2025-07-17T06:04:26"
+  },
+  {
+    "id": "c105f52b-cfbe-4331-8d37-6c9bdf175998",
+    "title": "11:00 - 12:30 Study",
+    "dueDate": "2025-07-17",
+    "status": "pending",
+    "createdAt": "2025-07-17T06:04:26",
+    "updatedAt": "2025-07-17T06:04:26"
+  },
+  {
+    "id": "fc04b48e-15e3-4d8b-8d8a-5c5e1c2fe378",
+    "title": "16:00 - 17:00 Study",
+    "dueDate": "2025-07-17",
+    "status": "pending",
+    "createdAt": "2025-07-17T06:04:26",
+    "updatedAt": "2025-07-17T06:04:26"
+  },
+  {
+    "id": "1b69076d-e5e4-4f6e-8d76-d86fc9d50277",
+    "title": "18:00 - 19:00 Study",
+    "dueDate": "2025-07-17",
+    "status": "pending",
+    "createdAt": "2025-07-17T06:04:26",
+    "updatedAt": "2025-07-17T06:04:26"
+  },
+  {
+    "id": "cb5d6f93-df8d-470b-a2f5-b5fcb3a4b4c6",
+    "title": "19:00 - 20:00 Study (Optional)",
+    "dueDate": "2025-07-17",
+    "status": "pending",
+    "createdAt": "2025-07-17T06:04:26",
+    "updatedAt": "2025-07-17T06:04:26"
+  },
+  {
+    "id": "20f01c70-e0df-405e-9a07-6f4b5043e78e",
+    "title": "21:00 - 22:00 Study",
+    "dueDate": "2025-07-17",
+    "status": "pending",
+    "createdAt": "2025-07-17T06:04:26",
+    "updatedAt": "2025-07-17T06:04:26"
+  },
+  {
+    "id": "e746e946-dedf-420b-8543-12de170bcb06",
+    "title": "08:00 - 09:00 Breakfast Break",
+    "dueDate": "2025-07-17",
+    "status": "pending",
+    "createdAt": "2025-07-17T06:04:26",
+    "updatedAt": "2025-07-17T06:04:26"
+  },
+  {
+    "id": "9b74f39e-b7b9-4c59-bdb4-30c470b3dc20",
+    "title": "10:30 - 11:00 Study Break",
+    "dueDate": "2025-07-17",
+    "status": "pending",
+    "createdAt": "2025-07-17T06:04:26",
+    "updatedAt": "2025-07-17T06:04:26"
+  },
+  {
+    "id": "16e73ed4-4fd7-43b0-a684-d859eae5ae35",
+    "title": "12:30 - 15:30 Match or Rest Break",
+    "dueDate": "2025-07-17",
+    "status": "pending",
+    "createdAt": "2025-07-17T06:04:26",
+    "updatedAt": "2025-07-17T06:04:26"
+  },
+  {
+    "id": "6b7586fd-e1b6-43f7-b81e-08a8458a8972",
+    "title": "17:00 - 18:00 Walk or Tea Break",
+    "dueDate": "2025-07-17",
+    "status": "pending",
+    "createdAt": "2025-07-17T06:04:26",
+    "updatedAt": "2025-07-17T06:04:26"
+  },
+  {
+    "id": "0e87e3c1-df98-45ce-9020-bf0707ad4bb3",
+    "title": "20:00 - 21:00 Dinner Break",
+    "dueDate": "2025-07-17",
+    "status": "pending",
+    "createdAt": "2025-07-17T06:04:26",
+    "updatedAt": "2025-07-17T06:04:26"
   }
 ]
